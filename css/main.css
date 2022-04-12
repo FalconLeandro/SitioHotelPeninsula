@@ -1,0 +1,51 @@
+/*Global*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: crimson;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header i {
+  color: white;
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25vh 0;
+}
+main section a {
+  text-decoration: none;
+  color: crimson;
+}
+main section a .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white;
+  height: 250px;
+  width: 250px;
+}
+main section a .container i {
+  font-size: 5rem;
+}
+main hr {
+  height: 50vh;
+  width: 0.8vw;
+  border-width: 0;
+  color: white;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */
