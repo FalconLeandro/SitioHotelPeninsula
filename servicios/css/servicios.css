@@ -1,4 +1,3 @@
-/*Global*/
 * {
   margin: 0;
   padding: 0;
@@ -7,38 +6,37 @@
 }
 
 body {
-  background-color: #592103;
+  background-color: crimson;
+  height: 100vh;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  padding: 0 2rem;
   align-items: center;
-  padding: 20vh 0 40vh 0;
 }
-main section a {
+main div a {
   text-decoration: none;
-  color: #592103;
+  color: crimson;
 }
-main section a .container {
+main div a .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
   background: white;
-  height: 250px;
-  width: 250px;
+  height: 170px;
+  width: 170px;
   z-index: 2;
   -webkit-animation: start 1.5s ease-in;
           animation: start 1.5s ease-in;
 }
-main section a .container h2, main section a .container p {
-  -webkit-animation: none;
-          animation: none;
+main div a .container i {
+  font-size: 4rem;
 }
-main section a .container i {
-  font-size: 5rem;
+main div a .container h2 {
+  font-size: 1rem;
 }
 main hr {
   height: 50vh;
@@ -49,22 +47,4 @@ main hr {
   z-index: 1;
   -webkit-animation: start 1.5s ease-in;
           animation: start 1.5s ease-in;
-}
-
-@-webkit-keyframes start {
-  0% {
-    transform: scale(5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes start {
-  0% {
-    transform: scale(5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=servicios.css.map */
