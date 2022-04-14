@@ -40,13 +40,14 @@ main{
                 height: 250px;
                 width: 250px;
                 z-index: 2;
-                animation: start 1.5s ease-in;
-                h2,p{
-                    animation: none;
-                }
+                
+                
                 i{
                     font-size: 5rem;
                 }
+            }
+            .heroe{
+                animation: start 1s ease-in-out;     
             }
         }
         
@@ -58,15 +59,96 @@ main{
         color:white;
         background-color:white;
         z-index: 1;
-        animation: start 1.5s ease-in;
+        
+    }
+}
+.word-changer {
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 2;
+    justify-content: center;
+    line-height: 40px;
+    overflow: hidden;
+    ul{
+      margin: 0;
+      text-transform: uppercase;
+      text-decoration: none;
+      list-style: none;
+      animation: cambiar 5s infinite;
+      animation-delay: 1s;
+      text-align: center;
+    }
+}
+  @keyframes cambiar {
+    0% {
+      margin-top: 0px;
+      
+    }
+    10%{
+        margin-top: 0px;
+    }
+    16% {
+      margin-top: -20px;
+      
+    }
+    22% {
+      margin-top: -20px;
+    }
+  
+    33% {
+      margin-top: -40px;
+      
+    }
+    41% {
+      margin-top: -40px;
+    }
+    49% {
+      margin-top: -40px;
+      
+    }
+    57% {
+      margin-top: -40px;
+    }
+    65% {
+      margin-top: -40px;
+      
+    }
+  
+    66% {
+      margin-top: -80px;
+      
+    }
+    74% {
+      margin-top: -80px;
+    }
+    82% {
+      margin-top: -80px;
+      
+    }
+    90% {
+      margin-top: -80px;
+    }
+    99% {
+      margin-top: -80px;
+      
+    }
+  
+    100% {
+      margin-top: 0px;
+      
     }
 }
 @keyframes start{
     0% {
-      transform: scale(5);
+      width: 0px;
+      height: 0px;
     }
     100% {
-        transform: scale(1);
+        width: 250px;
+        height: 250px;
     }
 }
 
