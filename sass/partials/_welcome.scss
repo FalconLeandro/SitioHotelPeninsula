@@ -7,7 +7,7 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    background-color: #592103;
+    background-color: #4d0f19;
     // header{
     //     display: flex;
     //     i{
@@ -29,7 +29,7 @@ main{
     section{
         a{
             text-decoration: none;
-            color: #592103;
+            color: #4d0f19;
             .container{
                 display: flex;
                 flex-direction: column;
@@ -44,6 +44,10 @@ main{
                 
                 i{
                     font-size: 5rem;
+                    color: #4d0f19;
+                }
+                h2{
+                  color: #4d0f19;
                 }
             }
             .heroe{
@@ -77,67 +81,72 @@ main{
       text-transform: uppercase;
       text-decoration: none;
       list-style: none;
-      animation: cambiar 5s infinite;
+      animation: cambiar 10s infinite;
       animation-delay: 1s;
       text-align: center;
     }
 }
   @keyframes cambiar {
     0% {
+      margin-top: 40px;
+      
+    }
+    8% {
+      margin-top: 0px;
+    }
+    16% {
       margin-top: 0px;
       
     }
-    10%{
-        margin-top: 0px;
-    }
-    16% {
-      margin-top: -20px;
+    // 25% {
+    //   margin-top: 0px;
+    // }
+    // 32% {
+    //   margin-top: 0px;
       
-    }
-    22% {
-      margin-top: -20px;
-    }
+    // }
   
-    33% {
+    24% {
       margin-top: -40px;
       
     }
-    41% {
+    32% {
       margin-top: -40px;
+      
     }
-    49% {
-      margin-top: -40px;
+    // 57% {
+    //   margin-top: -40px;
+    // }
+    // 65% {
+    //   margin-top: -40px;
+      
+    // }
+  
+    40% {
+      margin-top: -80px;
+      
+    }
+    48% {
+      margin-top: -80px;
+    }
+    // 82% {
+    //   margin-top: -80px;
+      
+    // }
+    // 90% {
+    //   margin-top: -80px;
+    // }
+    56% {
+      margin-top: -110px;
       
     }
     57% {
-      margin-top: -40px;
-    }
-    65% {
-      margin-top: -40px;
-      
-    }
-  
-    66% {
-      margin-top: -80px;
-      
-    }
-    74% {
-      margin-top: -80px;
-    }
-    82% {
-      margin-top: -80px;
-      
-    }
-    90% {
-      margin-top: -80px;
-    }
-    99% {
-      margin-top: -80px;
+      margin-top: 30px;
       
     }
   
     100% {
-      margin-top: 0px;
+      margin-top: 30px;
       
     }
 }

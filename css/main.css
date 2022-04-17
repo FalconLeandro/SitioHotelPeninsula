@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #592103;
+  background-color: #4d0f19;
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 }
 main section a {
   text-decoration: none;
-  color: #592103;
+  color: #4d0f19;
 }
 main section a .container {
   display: flex;
@@ -33,6 +33,10 @@ main section a .container {
 }
 main section a .container i {
   font-size: 5rem;
+  color: #4d0f19;
+}
+main section a .container h2 {
+  color: #4d0f19;
 }
 main section a .heroe {
   -webkit-animation: start 1s ease-in-out;
@@ -63,8 +67,8 @@ main hr {
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
-  -webkit-animation: cambiar 5s infinite;
-          animation: cambiar 5s infinite;
+  -webkit-animation: cambiar 10s infinite;
+          animation: cambiar 10s infinite;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
   text-align: center;
@@ -72,97 +76,67 @@ main hr {
 
 @-webkit-keyframes cambiar {
   0% {
-    margin-top: 0px;
+    margin-top: 40px;
   }
-  10% {
+  8% {
     margin-top: 0px;
   }
   16% {
-    margin-top: -20px;
+    margin-top: 0px;
   }
-  22% {
-    margin-top: -20px;
-  }
-  33% {
+  24% {
     margin-top: -40px;
   }
-  41% {
+  32% {
     margin-top: -40px;
   }
-  49% {
-    margin-top: -40px;
+  40% {
+    margin-top: -80px;
+  }
+  48% {
+    margin-top: -80px;
+  }
+  56% {
+    margin-top: -110px;
   }
   57% {
-    margin-top: -40px;
-  }
-  65% {
-    margin-top: -40px;
-  }
-  66% {
-    margin-top: -80px;
-  }
-  74% {
-    margin-top: -80px;
-  }
-  82% {
-    margin-top: -80px;
-  }
-  90% {
-    margin-top: -80px;
-  }
-  99% {
-    margin-top: -80px;
+    margin-top: 30px;
   }
   100% {
-    margin-top: 0px;
+    margin-top: 30px;
   }
 }
 
 @keyframes cambiar {
   0% {
-    margin-top: 0px;
+    margin-top: 40px;
   }
-  10% {
+  8% {
     margin-top: 0px;
   }
   16% {
-    margin-top: -20px;
+    margin-top: 0px;
   }
-  22% {
-    margin-top: -20px;
-  }
-  33% {
+  24% {
     margin-top: -40px;
   }
-  41% {
+  32% {
     margin-top: -40px;
   }
-  49% {
-    margin-top: -40px;
+  40% {
+    margin-top: -80px;
+  }
+  48% {
+    margin-top: -80px;
+  }
+  56% {
+    margin-top: -110px;
   }
   57% {
-    margin-top: -40px;
-  }
-  65% {
-    margin-top: -40px;
-  }
-  66% {
-    margin-top: -80px;
-  }
-  74% {
-    margin-top: -80px;
-  }
-  82% {
-    margin-top: -80px;
-  }
-  90% {
-    margin-top: -80px;
-  }
-  99% {
-    margin-top: -80px;
+    margin-top: 30px;
   }
   100% {
-    margin-top: 0px;
+    margin-top: 30px;
   }
 }
 @-webkit-keyframes start {
